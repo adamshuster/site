@@ -1,0 +1,58 @@
+html{
+    font-size:20px;
+}
+
+body {
+    margin: 40px auto;
+    max-width: 700px;
+    padding: 0 1.5em;
+    font-family:'Open Sans', 'Arial', sans-serif;
+    font-size:1em;
+}
+
+nav ul {
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #EB6D00;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .075em;
+    font-size: .8em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.blurb h1 {
+    font-size:2em;
+    margin-top:1.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight:700;
+    margin-bottom:0;
+}
+
+h3 {
+    font-size:1.25em;
+    font-weight:700;
+    margin-bottom:0;
+}
+
+p {
+    line-height: 1.4em;
+    color: #333;
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
